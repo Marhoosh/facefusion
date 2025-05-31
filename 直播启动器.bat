@@ -10,5 +10,7 @@ echo facefusion直播换脸启动中，请稍等
 
 python facefusion.py run --ui-layouts webcam --open-browser
 
+pause
+
 
 

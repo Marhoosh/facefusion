@@ -10,5 +10,6 @@ echo facefusion启动中，请稍等
 
 python facefusion.py run --open-browser
 
+pause
 
 
