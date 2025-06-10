@@ -25,7 +25,7 @@ def render() -> None:
 		},
 		{
 			'wording': wording.get('about.read_the_documentation'),
-			'url': 'https://docs.facefusion.io'
+			'url': 'https://mp.weixin.qq.com/s/1FT3EdtWcXM3WG8enfn4VA'
 		}
 	])
 

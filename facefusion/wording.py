@@ -10,7 +10,7 @@ WORDING: Dict[str, Any] = {
 	'about': {
 		'become_a_member': 'become a member',
 		'join_our_community': 'join our community',
-		'read_the_documentation': 'read the documentation'
+		'read_the_documentation': '使用教程'
 	},
     'error': {
         'file_not_found': '文件未找到',
@@ -255,7 +255,7 @@ WORDING: Dict[str, Any] = {
     'about': {
 		'become_a_member': 'become a member',
 		'join_our_community': 'join our community',
-		'read_the_documentation': 'read the documentation'
+		'read_the_documentation': '使用教程'
     },
 
     'uis': {
