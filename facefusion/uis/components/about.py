@@ -21,7 +21,7 @@ def render() -> None:
 		},
 		{
 			'wording': wording.get('about.join_our_community'),
-			'url': 'https://join.facefusion.io'
+			'url': 'https://mp.weixin.qq.com/s/1FT3EdtWcXM3WG8enfn4VA'
 		},
 		{
 			'wording': wording.get('about.read_the_documentation'),
