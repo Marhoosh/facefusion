@@ -16,21 +16,13 @@ def render() -> None:
 	action = random.choice(
 	[
 		{
-			'wording': wording.get('about.become_a_member'),
-			'url': 'https://subscribe.facefusion.io'
-		},
-		{
-			'wording': wording.get('about.join_our_community'),
-			'url': 'https://mp.weixin.qq.com/s/1FT3EdtWcXM3WG8enfn4VA'
-		},
-		{
 			'wording': wording.get('about.read_the_documentation'),
 			'url': 'https://mp.weixin.qq.com/s/1FT3EdtWcXM3WG8enfn4VA'
 		}
 	])
 
 	METADATA_BUTTON = gradio.Button(
-		value = metadata.get('name') + ' ' + metadata.get('version'),
+		value = metadata.get('name') + ' ' + metadata.get('version') + ' B站主页',
 		variant = 'primary',
 		link = 'https://space.bilibili.com/293706477'
 	)

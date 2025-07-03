@@ -237,7 +237,7 @@ WORDING : Dict[str, Any] =\
 	{
 		'become_a_member': '成为会员',
 		'join_our_community': '加入我们的社区',
-		'read_the_documentation': '阅读文档'
+		'read_the_documentation': '使用教程'
 	},
 	'uis':
 	{
