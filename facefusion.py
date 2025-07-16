@@ -10,7 +10,7 @@ init(autoreset=True)
 print("\n" * 4)  # 空行
 
 # ===== 美观启动展示 =====
-big_text = pyfiglet.figlet_format("FaceFusion", font="slant")
+big_text = pyfiglet.figlet_format("FaceFusionPro", font="slant")
 
 # 定义美观的展示格式（使用 Fore.COLOR 设置颜色）
 banner = f"""
@@ -18,7 +18,7 @@ banner = f"""
 {Fore.YELLOW}{big_text.rstrip()}
 {Fore.CYAN}********************************************************************************
 
-{Fore.GREEN}              FaceFusion3.3.2 一键启动包
+{Fore.GREEN}              FaceFusionPro3.3.2 一键启动整合包
 
 {Fore.CYAN}********************************************************************************
 

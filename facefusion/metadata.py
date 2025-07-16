@@ -2,7 +2,7 @@ from typing import Optional
 
 METADATA =\
 {
-	'name': 'FaceFusion',
+	'name': 'FaceFusionPro',
 	'description': 'Industry leading face manipulation platform',
 	'version': '3.3.2',
 	'license': 'OpenRAIL-AS',
