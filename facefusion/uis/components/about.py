@@ -22,7 +22,7 @@ def render() -> None:
 	])
 
 	METADATA_BUTTON = gradio.Button(
-		value = metadata.get('name') + ' ' + metadata.get('version') + ' B站主页',
+		value = metadata.get('name') + ' ' + metadata.get('version'),
 		variant = 'primary',
 		link = 'https://space.bilibili.com/293706477'
 	)
