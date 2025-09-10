@@ -25,10 +25,9 @@ banner = f"""
 {Fore.WHITE}   微信公众号：{Fore.MAGENTA}随风mar  {Fore.WHITE}|   抖音：{Fore.MAGENTA}随风mar   {Fore.WHITE}｜  B站：{Fore.MAGENTA}随风mar
 
 
-{Fore.YELLOW}   疑难解答  |   远程协助  |   技术支持服务   ＋ 微信: workTech168
+{Fore.YELLOW}                QQ交流群：740529265  （免费）
 
-
-{Fore.GREEN}              Facefusion交流QQ群：740529265
+{Fore.GREEN}   优先回复 | 电脑远程 | 技术支持 + 微信：workTech168 （付费）
 
 {Fore.CYAN}********************************************************************************
 
