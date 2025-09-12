@@ -128,7 +128,10 @@ def common_pre_check() -> bool:
 		voice_extractor
 	]
 
-	return all(module.pre_check() for module in common_modules)
+	content_analyser_content = inspect.getsource(content_analyser).encode()
+	content_analyser_hash = hash_helper.create_hash(content_analyser_content)
+
+	return all(module.pre_check() for module in common_modules) and content_analyser_hash == '803b5ec7'
 
 
 def processors_pre_check() -> bool:
